@@ -1,0 +1,38 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(135deg,#4b0547, #181063);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    background-attachment: fixed; /* Parallax Effect */
+  }
+  
+  .heroContent h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+  }
+  
+  .heroContent p {
+    font-size: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  
+  .heroButton {
+    padding: 15px 30px;
+    background-color: rgba(0,0,0,0.3);
+    color: white;
+    border: none;
+    border-radius: 50px;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: background-color 0.3s;
+  }
+  
+  .heroButton:hover {
+    background-color:#3e0f86;
+  }
+ .heroButton{
+  box-shadow: 0px 6px 15px rgba(235, 229, 229, 0.4);
+ }
